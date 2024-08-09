@@ -5,7 +5,7 @@
   "scripts": {
     "start": "bun server/index.ts",
     "build:react": "cd ./frontend &&  bun run  build",
-    "build": " bun build:react  && bun server/index.ts",
+    "build": " bun build:react  && bun start",
     "dev": "bun --watch server/index.ts"
   },
   "devDependencies": {
