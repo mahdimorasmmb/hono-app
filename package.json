@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "start": "bun server/index.ts",
-    "build:react": "cd ./frontend &&  bun run  build",
+    "build:react": "cd ./frontend && bun i &&  bun run  build",
     "build": " bun build:react  && bun start",
     "dev": "bun --watch server/index.ts"
   },
